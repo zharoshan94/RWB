@@ -12,7 +12,9 @@ This Python tool can detect, classify, and track RWB in two-dimensional gridded 
 
 ## Contour Extracting algorithm
 
-![ pv_pole](https://user-images.githubusercontent.com/94976842/143453121-2e76e796-274d-4ed9-a120-b5b3181843d3.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94976842/186919920-a67625cf-102c-43a6-af1d-2032fcd432b0.png" width=75% height=75%>
+</p>
 
-The input of many existing Rossby wave breaking algorithms a (closed) contour line of a certain variable such as PV. In a first step, a contour extracting algorithm based on the "find_contours" function of "measure" by "skimage" was created. The algorithm, written in Python, is provided in a Jupyter Notebook. A first version including a detailed description can be found [here](https://github.com/skaderli/Master_thesis/blob/main/extract_contour_description.ipynb).
+The Rossby wave indices are based on a closed contour line representing the dynamical tropopause. Therefore, we first need to extract a suitable contour line from a two-dimensional field. This algorithm is based on the "find_contours" function of "measure" by "skimage". A first description of the implemented subroutines can be found [here](https://github.com/skaderli/RWB/blob/main/Contour_Extraction_Algorithm.ipynb).
 
