@@ -10,7 +10,7 @@ This Python tool can detect, classify, and track RWB in two-dimensional gridded 
   <img src="https://user-images.githubusercontent.com/94976842/186668848-c91327c9-ec74-4314-9732-d26bea41870c.jpg" width=60% height=60%>
 </p>
 
-## Contour Extracting algorithm
+## Contour Extracting Algorithm
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/94976842/186919920-a67625cf-102c-43a6-af1d-2032fcd432b0.png" width=75% height=75%>
@@ -18,3 +18,10 @@ This Python tool can detect, classify, and track RWB in two-dimensional gridded 
 
 The Rossby wave indices are based on a closed contour line representing the dynamical tropopause. Therefore, we first need to extract a suitable contour line from a two-dimensional field. This algorithm is based on the "find_contours" function of "measure" by "skimage". A first description of the implemented subroutines can be found [here](https://github.com/skaderli/RWB/blob/main/Contour_Extraction_Algorithm.ipynb).
 
+## RWB Index Algorithm
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94976842/186933876-44ebe9fa-adb7-41c8-a714-cf45c9a9fbd3.png" width=80% height=80%>
+</p>
+
+Calculation of the RWB Indices. 
